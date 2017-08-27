@@ -3,17 +3,21 @@
 <head>
 	<title>Score Keeper</title>
 	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+<h1 style="padding-left: 37%"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
 
-<p>Playing to: <span>5</span></p>
+<p style="font-size: 40px;padding-left: 37%; "><strong>Playing to: </strong><span>5</span></p>
 
-<input type="number">
-<button id="p1">Player One</button>
-<button id="p2">Player Two</button>
-<button id="reset">Reset</button>
+<div style="padding-left: 37%;padding-top: 3%"><input style="align-content: center;" type="number"></div>
+
+<div  style="padding-left: 37%;padding-top: 3%"><button class="btn btn-secondary  btn-lg" id="p1">Player One</button>
+<button class="btn btn-secondary  btn-lg"  id="p2">Player Two</button>
+<button class="btn btn-secondary  btn-lg" id="reset">Reset</button></div>
+<h1 id="h1"  style="padding-left: 37%;padding-top: 3%">Lets see who wins</h1>
 
 <script type="text/javascript" src="scorekeeper.js"></script>
 </body>
